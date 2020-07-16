@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>survay form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1 id="title">Survay Form</h1>
+<p id="description">This is the students surway form.</p>
+
+<form id="surway-form">
+  <div class="card">
+	 <label id="name-label" for="name">Name</label><br>
+	 <input type="text" name="name" id="name" placeholder="Enter your name" class="text" required/><br>
+	  <label id="email-label" for="email">Email</label><br>
+      <input type="email" name="email" id="email" placeholder="Enter your Email" class="text" required/><br>
+      <label id="number-label" for="number">Age</label><br>
+      <input type="number" name="age" id="number" min="10" max="99" class="text" placeholder="Age"/><br>
+      <p class="p1" style="font-size: 20px">What is your current year?</p>
+      <select id="dropdown" name="year" style="font-size: 20px" required>
+        <option disabled selected value>Select your educating year</option>
+        <option value="1st year">1st year</option>
+        <option value="2st year">2st year</option>
+        <option value="3st year">3st year</option>
+        <option value="other">Other</option>
+      </select><br>
+      <label>select Gender:</label><br>
+      <input type="radio" name="gender" value="Female">Female<br>
+      <input type="radio" name="gender" value="Male">Male<br>
+      <label>Select the subjects that you know</label><br>
+      <input type="radio" name="C" value="C">C<br>
+      <input type="radio" name="C++" value="C++">C++<br>
+      <input type="radio" name="HTML" value="HTML">HTML<br>
+      <input type="radio" name="CSS" value="CSS">CSS<br>
+      <label>Enter Your Extra details like hobbies etc.</label><br>
+      <textarea placeholder="Enter Your Extra details like hobbies etc."></textarea><br>
+      <button type="Submit">Submit</button>
+    </div>
+</form>
+
+
+</div>
+</body>
+</html>
